@@ -111,7 +111,7 @@ def transcribe(model_definition_path,
         if isinstance(y_hat, list):
             y_hat_full = np.squeeze(y_hat[index], 0)
         else:
-            print('Single output')
+            #print('Single output')
             y_hat_full = np.squeeze(y_hat, 0)
 
         if cfg.model_creation_fn_name == 'make_crnn_trans_nc_noskip2_weight_mdl':
