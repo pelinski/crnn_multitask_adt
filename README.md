@@ -4,6 +4,11 @@
 ````
 conda env create -f environment.yml
 ````
+If you get a `ResolvePackageNotFound` error use.
+```
+CONDA_RESTORE_FREE_CHANNEL=1 conda env create -f environment.yml
+```
+then:
 ````
 conda activate rhythm
 ````
