@@ -109,3 +109,6 @@ venv.bak/
 
 #groove dataset
 groove/*
+
+#tests
+.test/
