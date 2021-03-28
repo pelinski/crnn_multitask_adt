@@ -112,3 +112,6 @@ groove/*
 
 #tests
 .test/
+
+# backup
+*.bk
