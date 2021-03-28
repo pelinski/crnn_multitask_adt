@@ -185,7 +185,9 @@ dependencies:
     - importlib-metadata==2.1.1
     - jams==0.3.4
     - jsonschema==3.2.0
+    - mido==1.2.9
     - mir-eval==0.6
+    - pretty-midi==0.2.9
     - pyrsistent==0.16.1
     - requests==2.25.1
     - sortedcontainers==2.3.0
