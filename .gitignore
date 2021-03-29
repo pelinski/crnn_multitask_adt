@@ -115,3 +115,6 @@ groove/*
 
 # backup
 *.bk
+
+# notebook for pandas to latex
+latex.ipynb
